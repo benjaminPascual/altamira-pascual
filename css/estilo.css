@@ -174,7 +174,9 @@ div .logo{ margin-bottom: 30px; }
 
 				/*======= menu hamburguesa ========*/
 
-#mobile__menu{ grid-area: nav; }
+#mobile__menu{ 
+	grid-area: nav; 
+}
 #mobile__menu a {
   text-decoration: none;
   display: block;
@@ -187,6 +189,7 @@ div .logo{ margin-bottom: 30px; }
   box-sizing: border-box;
   width: 48px;
   height: 48px;
+
 }
 
 #mobile__menu .fa-bars, #mobile__menu .fa-times {
